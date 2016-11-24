@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SensorExample</string>
+    <string name="show">Click Me!</string>
+    <string-array name="sensorType">
+        <item>NULL</item>
+        <item>Accelerometer</item>
+        <item>Magnetic Field</item>
+        <item>Orientation</item>
+        <item>Gyroscope</item>
+        <item>Light</item>
+        <item>Pressure</item>
+        <item>Temperature</item>
+        <item>Proximity</item>
+        <item>Gravity</item>
+        <item>Linear Acceleration</item>
+        <item>Rotation Vector</item>
+        <item>Relative Humidity</item>
+        <item>Ambient Temperature</item>
+        <item>Magnetic Field (Uncalibrated)</item>
+        <item>Game Rotation Vector</item>
+        <item>Gyroscope (Uncalibrated)</item>
+        <item>Significant Motion</item>
+        <item>Step Detector</item>
+        <item>Step Counter</item>
+        <item>Geomagnetic Rotation Vector</item>
+    </string-array>
+</resources>
