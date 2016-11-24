@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SensorExample</string>
+    <string name="app_name">Sensor API Example</string>
     <string name="show">Click Me!</string>
     <string-array name="sensorType">
         <item>NULL</item>
