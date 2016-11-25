@@ -53,7 +53,7 @@ public class ProximitySensor extends AppCompatActivity implements SensorEventLis
         if (event.sensor.getType() == Sensor.TYPE_PROXIMITY){
             float val = event.values[0];
             String out = "Proximity Value: " + val + "\n\nThe Proximity Sensor only recognizes " +
-                    "near or far states, even though we get these value.\nSo, we can instead " +
+                    "near or far states, even though we get these values.\nSo, we can instead " +
                     "display if we have 'triggered' the sensor or not, via the progress bar.\n";
             display.setText(out);
             distance.setProgress((int)val);
